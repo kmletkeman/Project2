@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcWordServer.Protos";
+
+package wordle;
+
+service DailyWord {
+	rpc GetWord (Empty) returns (WordResponse);
+	rpc ValidateWord (WordRequest) returns (BoolResponse);
+}
+
+message Empty {}
+
+message WordRequest {
+	string word = 1;
+}
+
+message WordResponse {
+	string word = 1;
+}
+
+message BoolResponse {
+	bool valid = 1;
+}

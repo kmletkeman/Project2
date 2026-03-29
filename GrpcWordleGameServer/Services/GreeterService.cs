@@ -1,7 +1,7 @@
 using Grpc.Core;
-using GrpcWordServer;
+using GrpcWordleGameServer;
 
-namespace GrpcWordServer.Services
+namespace GrpcWordleGameServer.Services
 {
     public class GreeterService : Greeter.GreeterBase
     {
