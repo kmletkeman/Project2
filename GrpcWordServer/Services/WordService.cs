@@ -1,5 +1,5 @@
 using Grpc.Core;
-using GrpcWordServer;
+using GrpcWordServer.Protos;
 using System.Text.Json;
 
 namespace GrpcWordServer.Services
@@ -35,7 +35,7 @@ namespace GrpcWordServer.Services
             if (string.IsNullOrWhiteSpace(word) || word.Length != 5)
                 return false;
 
-            return _words.Contains(word.ToLowerInvariant().Trim());
+            return _words.Contains(word.ToLower().Trim());
         }
     }
 }

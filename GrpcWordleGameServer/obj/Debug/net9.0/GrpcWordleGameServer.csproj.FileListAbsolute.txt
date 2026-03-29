@@ -1,0 +1,8 @@
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.csproj.AssemblyReference.cache
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.AssemblyInfoInputs.cache
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.AssemblyInfo.cs
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.csproj.CoreCompileInputs.cache
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.MvcApplicationPartsAssemblyInfo.cache
+C:\SCHOOL\Term 8\INFO-5060 Component-based Programming with .NET\Project 2\Project 2\GrpcWordleGameServer\obj\Debug\net9.0\GrpcWordleGameServer.sourcelink.json
