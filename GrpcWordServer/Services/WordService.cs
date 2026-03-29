@@ -4,20 +4,17 @@ using System.Text.Json;
 
 namespace GrpcWordServer.Services
 {
-    public class WordProvider
+    public class WordService
     {
         private readonly List<string> _words;
 
-        public WordProvider()
+        public WordService()
         {
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "wordle.json");
             string json = File.ReadAllText(path);
 
             _words = JsonSerializer.Deserialize<List<string>>(json)?
-                .Select(w => w.ToLowerInvariant().Trim())
-                .Where(w => w.Length == 5)
-                .Distinct()
-                .ToList() ?? new List<string>();
+                .Select(w => w.ToLower()).Distinct().ToList() ?? new List<string>();
 
             if (_words.Count == 0)
                 throw new Exception("wordle.json is empty or invalid.");

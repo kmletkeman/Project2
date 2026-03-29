@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcWordServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcae7acf301f32d3bcf67d83e9c3b32a91b09bb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a46ef7f2d4adcb16a2b07e5f5a1a4454502691d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcWordServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcWordServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

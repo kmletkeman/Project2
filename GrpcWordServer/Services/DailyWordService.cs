@@ -6,22 +6,20 @@ namespace GrpcWordServer.Services
 {
     public class DailyWordService : DailyWord.DailyWordBase
     {
-        private readonly WordProvider _wordProvider;
-        public DailyWordService(WordProvider wordProvider)
+        private readonly WordService _wordService;
+        public DailyWordService(WordService wordService)
         {
-            _wordProvider = wordProvider;
+            _wordService = wordService;
         }
 
         public override Task<WordResponse> GetWord(Empty request, ServerCallContext context)
         {
-            string word = _wordProvider.GetDailyWord();
-            return Task.FromResult(new WordResponse { Word = word });
+            return Task.FromResult(new WordResponse { Word = _wordService.GetDailyWord() });
         }
 
         public override Task<BoolResponse> ValidateWord(WordRequest request, ServerCallContext context)
         {
-            bool isValid = _wordProvider.IsValidWord(request.Word);
-            return Task.FromResult(new BoolResponse { Valid = isValid });
+            return Task.FromResult(new BoolResponse { Valid = _wordService.IsValidWord(request.Word.ToLower()) });
         }
     }
 }
