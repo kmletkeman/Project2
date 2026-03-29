@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordserver\\services\\wordprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|solutionrelative:grpcwordserver\\services\\wordprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|solutionrelative:grpcwordserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordserver\\services\\dailywordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|solutionrelative:grpcwordserver\\services\\dailywordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordserver\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|solutionrelative:grpcwordserver\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcWordServer\\Program.cs",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Program.cs",
+              "RelativeToolTip": "GrpcWordServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T09:15:21.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordProvider.cs",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Services\\WordProvider.cs",
+              "RelativeDocumentMoniker": "GrpcWordServer\\Services\\WordProvider.cs",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Services\\WordProvider.cs",
+              "RelativeToolTip": "GrpcWordServer\\Services\\WordProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T09:12:54.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyWordService.cs",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Services\\DailyWordService.cs",
+              "RelativeDocumentMoniker": "GrpcWordServer\\Services\\DailyWordService.cs",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Services\\DailyWordService.cs",
+              "RelativeToolTip": "GrpcWordServer\\Services\\DailyWordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T09:12:43.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dailyword.proto",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Protos\\dailyword.proto",
+              "RelativeDocumentMoniker": "GrpcWordServer\\Protos\\dailyword.proto",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Protos\\dailyword.proto",
+              "RelativeToolTip": "GrpcWordServer\\Protos\\dailyword.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-29T09:12:41.104Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"

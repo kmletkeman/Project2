@@ -7,9 +7,6 @@ namespace GrpcWordServer.Services
     public class WordProvider
     {
         private readonly List<string> _words;
-        private string? _todayWord;
-        private DateTime _lastDate = DateTime.MinValue;
-        private readonly object _lock = new();
 
         public WordProvider()
         {
@@ -28,20 +25,12 @@ namespace GrpcWordServer.Services
 
         public string GetDailyWord()
         {
-            lock (_lock)
-            {
-                var today = DateTime.UtcNow.Date;
+            var today = DateTime.UtcNow.Date;
 
-                if (_todayWord == null || _lastDate != today)
-                {
-                    var random = new Random();
-                    _todayWord = _words[random.Next(_words.Count)];
-                    _lastDate = today;
-                    Console.WriteLine($"[WordProvider] New daily word set for {today:yyyy-MM-dd}");
-                }
+            int seed = today.Year * 10000 + today.Month * 100 + today.Day;
+            var random = new Random(seed);
 
-                return _todayWord;
-            }
+            return _words[random.Next(_words.Count)];
         }
 
         public bool IsValidWord(string word)
