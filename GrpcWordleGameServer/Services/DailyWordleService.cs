@@ -114,7 +114,7 @@ namespace GrpcWordleGameServer.Services
         public override Task<StatsResponse> GetStats(Empty request, ServerCallContext context)
         {
             var stats = StatsManager.GetCurrentStats();
-            return Task.FromResult(stats!);
+            return Task.FromResult(stats);
         }
 
         private static int CountFrequency(string word, char letter)
