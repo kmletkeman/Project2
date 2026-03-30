@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcWordServer", "GrpcWordS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcWordleGameServer", "GrpcWordleGameServer\GrpcWordleGameServer.csproj", "{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWordleClient", "TestWordleClient\TestWordleClient.csproj", "{9CFBED07-8D53-4321-A200-0B144975E387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFBED07-8D53-4321-A200-0B144975E387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFBED07-8D53-4321-A200-0B144975E387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFBED07-8D53-4321-A200-0B144975E387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFBED07-8D53-4321-A200-0B144975E387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

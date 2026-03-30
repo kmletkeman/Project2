@@ -6,11 +6,7 @@ namespace GrpcWordServer.Services
 {
     public class DailyWordService : DailyWord.DailyWordBase
     {
-        private readonly WordService _wordService;
-        public DailyWordService(WordService wordService)
-        {
-            _wordService = wordService;
-        }
+        private readonly WordService _wordService = new WordService();
 
         public override Task<WordResponse> GetWord(Empty request, ServerCallContext context)
         {

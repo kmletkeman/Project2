@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "GrpcWordServer\\GrpcWordServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GrpcWordleGameServer\\GrpcWordleGameServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TestWordleClient\\TestWordleClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
