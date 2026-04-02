@@ -1,4 +1,10 @@
-﻿using Grpc.Core;
+﻿/*
+ Programmer: Kevin Letkeman
+ Purpose: A test client for the Wordle game to test my implementation of the gRPC servers.
+ Date: 2026-03-31
+ */
+
+using Grpc.Core;
 using Grpc.Net.Client;
 using GrpcWordleGameServer.Protos;
 using GrpcWordServer.Protos;

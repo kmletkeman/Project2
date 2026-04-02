@@ -1,4 +1,10 @@
-﻿using Grpc.Net.Client;
+﻿/*
+ Programmer: Kevin Letkeman
+ Purpose: Client for the DailyWord gRPC service, provides the daily word and validates guesses
+ Date: 2026-03-31
+ */
+
+using Grpc.Net.Client;
 using GrpcWordServer.Protos;
 using Grpc.Core;
 using System.Net.NetworkInformation;
@@ -9,6 +15,8 @@ namespace GrpcWordleGameServer.Clients
     {
         private static DailyWord.DailyWordClient? _dailyWordClient = null;
 
+        // Retrieves the daily word from the gRPC service
+        // Returns an empty string if the service is unavailable
         public static string GetDailyWord()
         {
             ConnectToService();
@@ -24,6 +32,8 @@ namespace GrpcWordleGameServer.Clients
             }
         }
 
+        // Validates a guessed word against the daily word using the gRPC service
+        // Returns false if the service is unavailable or if the word is invalid
         public static bool ValidateWord(string word)
         {
             if (string.IsNullOrWhiteSpace(word))
@@ -42,6 +52,7 @@ namespace GrpcWordleGameServer.Clients
             }
         }
 
+        // Establishes a connection to the gRPC service if not already connected
         private static void ConnectToService()
         {
             if (_dailyWordClient is null)

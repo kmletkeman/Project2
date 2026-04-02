@@ -1,3 +1,10 @@
+/*
+ Programmer: Kevin Letkeman
+ Purpose: This file defines the gRPC service and messages for the Daily Wordle game, 
+		  allowing clients to play the game and retrieve statistics
+ Date: 2026-03-31
+ */
+
 syntax = "proto3";
 
 option csharp_namespace = "GrpcWordleGameServer.Protos";
@@ -9,7 +16,7 @@ service DailyWordle {
 	rpc GetStats (Empty) returns (StatsResponse);
 }
 
-message Empty {}
+message Empty {}// An empty message used for requests that do not require any parameters
 
 message GuessRequest {
 	string guess = 1;
@@ -25,5 +32,5 @@ message GuessResponse {
 message StatsResponse {
 	int32 players = 1;
 	double winPercent = 2;
-	map<int32, int32> guessDistribution = 3; // key: number of guesses, value: count
+	map<int32, int32> guessDistribution = 3;// Map of number of guesses to count of players who won in that many guesses
 }

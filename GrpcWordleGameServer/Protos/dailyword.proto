@@ -1,3 +1,10 @@
+/*
+ Programmer: Kevin Letkeman
+ Purpose: This file defines the gRPC service and messages for the Daily Word 
+		  feature of the Wordle game server
+ Date: 2026-03-31
+ */
+
 syntax = "proto3";
 
 option csharp_namespace = "GrpcWordServer.Protos";
@@ -9,7 +16,7 @@ service DailyWord {
 	rpc ValidateWord (WordRequest) returns (BoolResponse);
 }
 
-message Empty {}
+message Empty {}// An empty message used for requests that do not require any parameters
 
 message WordRequest {
 	string word = 1;

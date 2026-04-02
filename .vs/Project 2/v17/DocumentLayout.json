@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordlegameserver\\services\\dailywordleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|solutionrelative:grpcwordlegameserver\\services\\dailywordleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordlegameserver\\services\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|solutionrelative:grpcwordlegameserver\\services\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\testwordleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|solutionrelative:testwordleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\testwordleclient\\protos\\dailywordle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|solutionrelative:testwordleclient\\protos\\dailywordle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordlegameserver\\protos\\dailywordle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{73C5BD29-7A2C-441C-B2F1-1EE07C76BD0E}|GrpcWordleGameServer\\GrpcWordleGameServer.csproj|solutionrelative:grpcwordlegameserver\\protos\\dailywordle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\testwordleclient\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9CFBED07-8D53-4321-A200-0B144975E387}|TestWordleClient\\TestWordleClient.csproj|solutionrelative:testwordleclient\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|c:\\school\\term 8\\info-5060 component-based programming with .net\\project 2\\project 2\\grpcwordserver\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{57334F15-D4AF-4EAB-B7C0-24B727D0037E}|GrpcWordServer\\GrpcWordServer.csproj|solutionrelative:grpcwordserver\\protos\\dailyword.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DailyWordleService.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Services\\DailyWordleService.cs",
-              "RelativeDocumentMoniker": "GrpcWordleGameServer\\Services\\DailyWordleService.cs",
-              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Services\\DailyWordleService.cs",
-              "RelativeToolTip": "GrpcWordleGameServer\\Services\\DailyWordleService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAgwHMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:11:21.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatsManager.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Services\\StatsManager.cs",
-              "RelativeDocumentMoniker": "GrpcWordleGameServer\\Services\\StatsManager.cs",
-              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Services\\StatsManager.cs",
-              "RelativeToolTip": "GrpcWordleGameServer\\Services\\StatsManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T00:11:16.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Program.cs",
               "RelativeDocumentMoniker": "TestWordleClient\\Program.cs",
               "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Program.cs",
               "RelativeToolTip": "TestWordleClient\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwFgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T23:01:17.058Z",
+              "WhenOpened": "2026-04-02T14:30:54.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dailywordle.proto",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Protos\\dailywordle.proto",
+              "RelativeDocumentMoniker": "TestWordleClient\\Protos\\dailywordle.proto",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Protos\\dailywordle.proto",
+              "RelativeToolTip": "TestWordleClient\\Protos\\dailywordle.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-02T14:30:41.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dailywordle.proto",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Protos\\dailywordle.proto",
+              "RelativeDocumentMoniker": "GrpcWordleGameServer\\Protos\\dailywordle.proto",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordleGameServer\\Protos\\dailywordle.proto",
+              "RelativeToolTip": "GrpcWordleGameServer\\Protos\\dailywordle.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-02T14:30:38.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dailyword.proto",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Protos\\dailyword.proto",
+              "RelativeDocumentMoniker": "TestWordleClient\\Protos\\dailyword.proto",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\TestWordleClient\\Protos\\dailyword.proto",
+              "RelativeToolTip": "TestWordleClient\\Protos\\dailyword.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-02T14:30:33.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dailyword.proto",
+              "DocumentMoniker": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Protos\\dailyword.proto",
+              "RelativeDocumentMoniker": "GrpcWordServer\\Protos\\dailyword.proto",
+              "ToolTip": "C:\\SCHOOL\\Term 8\\INFO-5060 Component-based Programming with .NET\\Project 2\\Project 2\\GrpcWordServer\\Protos\\dailyword.proto",
+              "RelativeToolTip": "GrpcWordServer\\Protos\\dailyword.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-02T14:30:30.137Z",
               "EditorCaption": ""
             }
           ]

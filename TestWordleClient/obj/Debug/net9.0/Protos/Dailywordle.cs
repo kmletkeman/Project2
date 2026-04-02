@@ -794,7 +794,7 @@ namespace GrpcWordleGameServer.Protos {
         = new pbc::MapField<int, int>.Codec(pb::FieldCodec.ForInt32(8, 0), pb::FieldCodec.ForInt32(16, 0), 26);
     private readonly pbc::MapField<int, int> guessDistribution_ = new pbc::MapField<int, int>();
     /// <summary>
-    /// key: number of guesses, value: count
+    /// Map of number of guesses to count of players who won in that many guesses
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
